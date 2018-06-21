@@ -1,0 +1,63 @@
+/* Preview button */
+a#fancybox-flipbook {
+    margin-top: 30px;
+}
+
+/* Flipbox fancybox */
+#product .fancybox-inner {
+    overflow: hidden !important;
+}
+    
+/* Flipbox fancybox content */
+#flipbook-preview .flipbox-container {
+    position: relative;
+    z-index: 1200;
+    width: 100%;
+    max-width: 768px;
+    height: auto;
+    max-height: 100%;
+}
+#flipbook-preview .flipbox-container #flipbox-content {
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+#flipbook-preview .flipbox-container #flipbox-content .turn-page {
+    background-color: #ccc
+}
+#flipbook-preview .flipbox-container #flipbox-content .page {
+    background-repeat: no-repeat
+}
+
+/* Flipbox fancybox content navigation */
+#flipbook-preview .flipbox-container #flipbox-navigation {
+    position: absolute;
+    z-index: 5000;
+    top: 50%;
+    left: 0;
+    width: 100%
+}
+#flipbook-preview .flipbox-container #flipbox-navigation a.next, #flipbook-preview .flipbox-container #flipbox-navigation a.prev {
+    position: absolute;
+    display: block;
+    background: #ccc;
+    color: #fff;
+    font-size: 14px;
+    padding: 5px 10px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%
+}
+#flipbook-preview .flipbox-container #flipbox-navigation a.next:hover, #flipbook-preview .flipbox-container #flipbox-navigation a.prev:hover {
+    text-decoration: none;
+    background: #999
+}
+#flipbook-preview .flipbox-container #flipbox-navigation a.next {
+    right: 5px
+}
+#flipbook-preview .flipbox-container #flipbox-navigation a.prev {
+    left: 5px
+}
