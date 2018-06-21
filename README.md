@@ -2,7 +2,7 @@
 
 Prestashop 1.6 Module
 
-This module was not refused on Prestashop Addons Marketplace because it needs Imagemagick PHP extension to be Installed on the server, so I give it for free :)
+This module was refused on Prestashop Addons Marketplace because it needs Imagemagick PHP extension to be Installed on the server, so I give it for free :)
 
 ## Overview
 
