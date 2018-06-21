@@ -40,8 +40,8 @@ http://php.net/manual/book.imagick.php
 
 ## Screenshots
 
-[Module Setup](screen-1-en.jpg)
+![Module Setup](screen-1-en.jpg)
 
-[Preview button](screen-2-en.jpg)
+![Preview button](screen-2-en.jpg)
 
-[Flipbook](screen-3-en.jpg)
+![Flipbook](screen-3-en.jpg)
